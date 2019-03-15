@@ -24,9 +24,9 @@ define("GITHUB_ISSUE_TRACKER_URL", 'https://github.com/ryersonlibrary/wpnewcarou
 require_once 'includes/ManageCarousel.php';
 add_action('admin_menu', 'WPNewCarousels');
 function WPNewCarousels() {
-  add_menu_page('WPNewCarousels - Add new carousel','Add carousel', 'administrator', 'add-new-wpnewcarousel', 'AddWPNewCarousel',plugins_url('images/16_carousel.png',__FILE__));
-  add_submenu_page('add-new-wpnewcarousel','Manage Carousels','All Carousels','administrator','list-all-wpnewcarousel','AdminWPNewCarousels');
-  add_submenu_page('add-new-wpnewcarousel','Manage Slides','Add Slides','administrator','wpnewcarousel-add-image','WPNewCarouselAddImages');
+  add_menu_page('WPNewCarousels - Add new carousel','Add carousel', 'editor', 'add-new-wpnewcarousel', 'AddWPNewCarousel', plugins_url('images/16_carousel.png',__FILE__) );
+  add_submenu_page('add-new-wpnewcarousel','Manage Carousels','All Carousels','editor','list-all-wpnewcarousel','AdminWPNewCarousels');
+  add_submenu_page('add-new-wpnewcarousel','Manage Slides','Add Slides','editor','wpnewcarousel-add-image','WPNewCarouselAddImages');
 }
 
 /**
@@ -353,7 +353,7 @@ function wpnewcarousel_admin_styles() {
  * @since 1.5
  */
 /*
-add_filter("plugin_action_links",'wpnewcarouselsettingslink','administrator',2);
+add_filter("plugin_action_links",'wpnewcarouselsettingslink','editor',2);
 function wpnewcarouselsettingslink($link,$file){
   static $this_plugin;
   if (!$this_plugin) {
