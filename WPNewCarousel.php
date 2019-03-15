@@ -2,7 +2,7 @@
 /*
 Plugin Name: WPNewCarousels
 Plugin URI: http://wordpress.org/extend/plugins/wpnewcarousels/
-Description: Provide functionality to create responsive carousel that can be inserted to any wordpress page.
+Description: Legacy plugin support for the Ryerson University Library & Archives website. Provide functionality to create responsive carousel that can be inserted to any wordpress page.
 Author: Arjun Jain
 Author URI: http://www.arjunjain.info
 Version: 1.8

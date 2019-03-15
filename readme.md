@@ -11,7 +11,7 @@ Stable tag: 1.8
 This plugin is used to create the responsive carousel that can be inserted to any wordpress page/post. This plugin also support Wordpress Multisite setup.
 
 == Description ==
-This plugin is used to create the responsive carousel that can be inserted to any wordpress page/post. This plugin also support wordpress multisite setup.
+Legacy plugin support for the Ryerson University Library & Archives website. This plugin is used to create the responsive carousel that can be inserted to any wordpress page/post. This plugin also support wordpress multisite setup.
 
 **Features**
 
