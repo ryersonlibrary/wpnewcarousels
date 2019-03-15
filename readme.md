@@ -2,7 +2,6 @@
 Contributors: arjunjain08	
 Author URI: http://www.arjunjain.info
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=SQC4WR7X5JGDY&lc=IN&item_name=WPNewCarousels&button_subtype=services&currency_code=USD&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted
-Plugin URI: http://wordpress.org/extend/plugins/wpnewcarousels/  
 Tags: slider, carousel, responsive slider,responsive carousel, wordpress carousel, multisite carousel, multisite slider, wordpress slider, carousel plugin, wordpress carousel plugin
 Requires at least: 3.0
 Tested up to: 4.1

@@ -6,7 +6,7 @@
  * Author: Ryerson University Library & Archives
  * Author URI: https://github.com/ryersonlibrary/
  * GitHub Plugin URI: https://github.com/ryersonlibrary/wpnewcarousels
- * Version: 1.8
+ * Version: 1.8.1
  * Text Domain: wpnewcarousels
  * License: GPL v3
 */
