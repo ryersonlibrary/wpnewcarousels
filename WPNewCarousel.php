@@ -15,6 +15,8 @@ global $wpnewcarousel_db_version;
 $wpnewcarousel_db_version="1.2"; 
 $olderversion=get_option('wpnewcarousel_db_version');   // find current version stored in database
 
+define("GITHUB_ISSUE_TRACKER_URL", 'https://github.com/ryersonlibrary/wpnewcarousels/issues');
+
 /**
  * Add WPNewCarousel to wordpress Admin Section
  * @since 1.0
