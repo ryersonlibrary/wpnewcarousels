@@ -1,13 +1,14 @@
 <?php
-/*
-Plugin Name: WPNewCarousels
-Plugin URI: http://wordpress.org/extend/plugins/wpnewcarousels/
-Description: Legacy plugin support for the Ryerson University Library & Archives website. Provide functionality to create responsive carousel that can be inserted to any wordpress page.
-Author: Arjun Jain
-Author URI: http://www.arjunjain.info
-Version: 1.8
-Text Domain: wpnewcarousels
-License: GPL v3
+/**
+ * Plugin Name: WPNewCarousels
+ * Plugin URI: https://github.com/ryersonlibrary/wpnewcarousels
+ * Description: Legacy plugin support for the Ryerson University Library & Archives website. Provide functionality to create responsive carousel that can be inserted to any wordpress page.
+ * Author: Ryerson University Library & Archives
+ * Author URI: https://github.com/ryersonlibrary/
+ * GitHub Plugin URI: https://github.com/ryersonlibrary/wpnewcarousels
+ * Version: 1.8
+ * Text Domain: wpnewcarousels
+ * License: GPL v3
 */
 
 global $wpnewcarousel_db_version;
