@@ -218,7 +218,7 @@ function WPNewCarouselShortcode($atts){
   $mc=new ManageCarousel();
   $carouselresults=$mc->GetCarouselByName($name);
   
-  if(sizeof($carouselresults)==0)
+  if( empty( $carouselresults ) )
     return "Please specify the correct carousel name";
 
   $validarray=array("true","false");

@@ -210,7 +210,7 @@ class ManageCarousel{
 	public function CheckCarouselExist(){
 		try{
 			$results=$this->_DataObject->get_var('SELECT Id FROM '.$this->_carouselTable.' LIMIT 0,1');
-			if(sizeof($results)==0)
+			if( empty( $results ) )
 				return false;
 			else
 				return true;
